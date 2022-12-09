@@ -1,0 +1,45 @@
+
+
+
+
+@font-face {
+    font-family: 'gorditabold';
+    src: url('gordita-bold-webfont.woff2') format('woff2'),
+         url('gordita-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('gordita-medium-webfont.woff2') format('woff2'),
+         url('gordita-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('gordita-regular-webfont.woff2') format('woff2'),
+         url('gordita-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'N27';
+    src: url('n27-regular-webfont.woff') format('woff'),
+    url('n27-regular-webfont.woff2') format('woff2');;
+    font-weight: normal;
+    font-style: normal;
+
+}

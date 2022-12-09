@@ -1,0 +1,197 @@
+.slick-dots {
+    position: relative;
+    bottom: 20px;
+}
+
+.feedback_slider_two .slick-slider {
+    position: relative;
+}
+
+.feedback_slider_two .slick-prev,
+.portfolio_slider_one .slick-prev {
+    font-size: 0;
+    position: absolute;
+    top: -37.5%;
+    z-index: 111;
+    right: 27%;
+    left: auto;
+}
+.feedback_slider_two .slick-next,
+.portfolio_slider_one .slick-next {
+    font-size: 0;
+    position: absolute;
+    top: -37.5%;
+    z-index: 111;
+    right: 25%;
+}
+
+.feedback_slider_two .slick-prev,
+.portfolio_slider_one .slick-prev {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: var(--prime-one);
+    margin-left: 2px;
+    cursor: pointer;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -50px;
+        transform: scale(0);
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    &::after {
+        content: "\f12f";
+        position: absolute;
+        font-family: "bootstrap-icons";
+        font-size: 26px;
+        z-index: 11;
+        display: inline-block;
+        left: 0;
+        right: 0;
+    }
+    &:hover {
+        background: #ffffff;
+        box-shadow: 0px 10px 20px rgba(0, 32, 145, 0.05);
+        transform: scale(1);
+    }
+}
+
+.feedback_slider_two .slick-next,
+.portfolio_slider_one .slick-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: var(--prime-one);
+    margin-left: 2px;
+    cursor: pointer;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        top: 50%;
+        margin: -50px 0 0 -50px;
+        transform: scale(0);
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    &::after {
+        content: "\f138";
+        position: absolute;
+        font-family: "bootstrap-icons";
+        font-size: 26px;
+        z-index: 11;
+        display: inline-block;
+        left: 0;
+        right: 0;
+    }
+    &:hover {
+        background: #ffffff;
+        box-shadow: 0px 10px 20px rgba(0, 32, 145, 0.05);
+        transform: scale(1);
+    }
+}
+
+.portfolio_slider_one .slick-prev {
+    right: 28.5%;
+    left: auto;
+}
+
+.portfolio_slider_one .slick-prev,
+.portfolio_slider_one .slick-next {
+    color: #000;
+    top: -38%;
+    &:hover {
+        background: var(--prime-two);
+        color: #fff;
+    }
+}
+
+@media (max-width: 1200px) {
+    .feedback_slider_two .slick-prev {
+        right: 32%;
+        top: -125px;
+    }
+    .feedback_slider_two .slick-next {
+        right: 27.8%;
+        top: -125px;
+    }
+    .portfolio_slider_one .slick-prev {
+        right: 29%;
+        top: -125px;
+    }
+    .portfolio_slider_one .slick-next {
+        right: 22.8%;
+        top: -125px;
+    }
+}
+
+@media (max-width: 992px) {
+    .feedback_slider_two .slick-prev {
+        right: 29%;
+        top: -125px;
+    }
+    .feedback_slider_two .slick-next {
+        right: 25%;
+        top: -125px;
+    }
+    .portfolio_slider_one .slick-prev {
+        right: 29.9%;
+        top: -125px;
+    }
+    .portfolio_slider_one .slick-next {
+        right: 23.8%;
+        top: -125px;
+    }
+}
+@media (max-width: 768px) {
+    .feedback_slider_two .slick-prev {
+        right: 29.4%;
+        top: -105px;
+    }
+    .feedback_slider_two .slick-next {
+        right: 25.6%;
+        top: -105px;
+    }
+
+    .portfolio_slider_one .slick-prev {
+        right: 32.9%;
+        top: -125px;
+    }
+    .portfolio_slider_one .slick-next {
+        right: 25.8%;
+        top: -125px;
+    }
+    .feedback-section-three .slick-dots {
+        bottom: -24px;
+    }
+}
+@media (max-width: 575px) {
+    .feedback_slider_two .slick-prev,
+    .portfolio_slider_one .slick-prev {
+        position: relative;
+        left: 41%;
+        top: -40px;
+    }
+    .feedback_slider_two .slick-next,
+    .portfolio_slider_one .slick-next {
+        left: 50%;
+        top: -40px;
+        text-align: center;
+    }
+}
